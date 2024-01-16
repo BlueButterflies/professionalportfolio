@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/BlueButterflies/professionalportfolio.git/static/css/main.d0d31ac7.css",
-    "main.js": "/BlueButterflies/professionalportfolio.git/static/js/main.eab65f61.js",
-    "static/media/profilImage.jpg": "/BlueButterflies/professionalportfolio.git/static/media/profilImage.73e87426b5bd751a2fe3.jpg",
-    "index.html": "/BlueButterflies/professionalportfolio.git/index.html",
-    "main.d0d31ac7.css.map": "/BlueButterflies/professionalportfolio.git/static/css/main.d0d31ac7.css.map",
-    "main.eab65f61.js.map": "/BlueButterflies/professionalportfolio.git/static/js/main.eab65f61.js.map"
+    "main.css": "/professionalportfolio/static/css/main.d0d31ac7.css",
+    "main.js": "/professionalportfolio/static/js/main.710a92d5.js",
+    "static/media/profilImage.jpg": "/professionalportfolio/static/media/profilImage.73e87426b5bd751a2fe3.jpg",
+    "index.html": "/professionalportfolio/index.html",
+    "main.d0d31ac7.css.map": "/professionalportfolio/static/css/main.d0d31ac7.css.map",
+    "main.710a92d5.js.map": "/professionalportfolio/static/js/main.710a92d5.js.map"
   },
   "entrypoints": [
     "static/css/main.d0d31ac7.css",
-    "static/js/main.eab65f61.js"
+    "static/js/main.710a92d5.js"
   ]
 }
