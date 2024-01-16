@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Tsparticles](https://www.npmjs.com/package/cra-template-particles).
 
 ## Portfolio template for Developers
 
@@ -17,7 +17,7 @@ The customize it as much as you want. The portfolio template create in React.js.
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/BlueButterflies/personalportfolio.git
+$ git clone https://github.com/BlueButterflies/professionalportfolio.git
 
 # Move into the repository
 $ cd personalportfolio
@@ -37,7 +37,7 @@ $ npm run build
 ```
 
 ## Using Library
-
+### Check if following libraries are installed in the file package.json
 ```bash
 $ npm install react-bootstrap bootstrap
 $ npm install animate.css --save
@@ -120,7 +120,7 @@ const  Home = () => {
           <span>Hi, my name is <span className="name">Your name</span></span>
         </p>
         <p className="subTitle tc animate__animated animate__zoomInDown">
-                                    {/**Write what type of developer you are */}
+                    {/**Write what type of developer you are */}
           <span>I'm the <span className="profession">Unknown Developer</span></span>
         </p>
       </div>
@@ -157,13 +157,11 @@ function About() {
                                 </h1>
                             </div>
 
-                            <div className="description">
-                                <p className="f3">
-                                    {/**Write how are you*/}
-                                    This is where you can describe about yourself.
-                                    The more you describe about yourself, the more chances you have!
-                                    Extra Information about you! like hobbies and your goals.
-                                </p>
+                            <div className="description f3">
+                              {/**Write how are you*/}
+                              This is where you can describe about yourself.
+                              The more you describe about yourself, the more chances you have!
+                              Extra Information about you! like hobbies and your goals.
                             </div>
                         </div>
                     </Col>
@@ -254,6 +252,7 @@ const Contacts = () => {
             }
         );
 
+        e.target.reset();
     };
 
     return (
@@ -291,7 +290,7 @@ Go to /src/components/Footer/Footer.js and add Your social media URLs.
 ```js
 import React from "react";
 import Container  from "react-bootstrap/Container";
-import { FaGithub, FaLinkedinIn, FaCopyright, FaTwitter} from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaStackOverflow, FaCopyright} from "react-icons/fa";
 
 
 
@@ -309,7 +308,18 @@ function Footer() {
                 <a href="" target="_blank">
                    <FaTwitter  className="icon ma3"/> 
                 </a>
+
+                <a href="" target="_blank">
+                   <FaStackOverflow  className="icon ma3"/> 
+                </a>
                 <hr/>
+
+                <h6 className="mt3">
+                    <FaCopyright  className="copy"/>
+                    <a href="https://github.com/BlueButterflies" target="_blank">
+                        {"2024 - Template developed by S/Z Siyana Zdravkova Web Developer"}
+                    </a>
+                </h6>
         </Container>
     );
 
@@ -317,13 +327,14 @@ function Footer() {
 
 export default Footer
 ```
-
 ### Css Style 
 
 
 Go to /src/index.css and change font-family, background color, color and increment animate delayed.
 
 ```css
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -396,7 +407,6 @@ body {
   color: rgb(255, 177, 177);
 }
 ```
-
 ---
 
 ## Technologies used
