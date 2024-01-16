@@ -20,7 +20,7 @@ The customize it as much as you want. The portfolio template create in React.js.
 $ git clone https://github.com/BlueButterflies/professionalportfolio.git
 
 # Move into the repository
-$ cd personalportfolio
+$ cd professionalportfolio
 
 # Remove the current origin repository
 $ git remote remove origin
