@@ -19,7 +19,7 @@
         "id": "three",
         "title": "Project Title",
         "description": "Describe the project being very specific: complement the information: the skills learned or reinforced in its realization .",
-        "image": "/ImageProjects/projectImage.jpg",
+        "image": "./ImageProjects/projectImage.jpg",
         "urlBtnLive": "url live project",
         "urlBtnCode": "url code project"
     },
