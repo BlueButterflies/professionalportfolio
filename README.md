@@ -37,7 +37,9 @@ $ npm run build
 ```
 
 ## Using Library
+
 ### Check if following libraries are installed in the file package.json
+
 ```bash
 $ npm install react-bootstrap bootstrap
 $ npm install animate.css --save
@@ -85,6 +87,7 @@ npm instal --save gh-pages
 ```bash
   "scripts": {
     "predeploy": "npm run build",
+-   "predeploy": "npm run build",    
 +   "deploy": "gh-pages -b master -d build",
 ```
 
@@ -96,7 +99,6 @@ $ npm run deploy
 #### Finally, make sure GitHub Pages option in your GitHub project settings is set to use the gh-pages branch or configure your domain
 
 For more informations visit [Create React App/Deployment](https://create-react-app.dev/docs/deployment/#step-2-install-gh-pages-and-add-deploy-to-scripts-in-packagejson)
-
 
 ---
 
@@ -297,7 +299,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter, FaStackOverflow, FaCopyright} from "
 function Footer() {
     return (
         <Container className="footer tc">
-                {/** In each URL write the URL of your account*/}
+                {/** In each URL write the URLs of your account*/}
                 <a href="" target="_blank">
                   <FaGithub  className="icon ma3"/>  
                 </a>
@@ -327,8 +329,8 @@ function Footer() {
 
 export default Footer
 ```
-### Css Style 
 
+### Css Style 
 
 Go to /src/index.css and change font-family, background color, color and increment animate delayed.
 
