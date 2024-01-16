@@ -1,32 +1,3 @@
-.App {
-    text-align: center;
-}
-
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
-}
-
-.App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
-
-.App-link {
-    color: #61dafb;
-}
-
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
@@ -38,11 +9,708 @@
 
 #tsparticles {
     position: fixed;
-    height: 100%;
-    width: 100%;
     margin: 0;
     padding: 0;
     left: 0;
     top: 0;
+    right: 0;
+    bottom: 0px;
     z-index: -1;
+}
+
+/*Home section*/
+.home{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.home div{
+    margin-top: 8%;
+    text-align: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 70px;
+    margin-top: 2%;
+    animation-delay: 0.25s;
+}
+
+.subTitle{
+    margin-top: 5%;
+    font-size: 60px;
+    animation-delay: 0.50s;
+}
+
+.knowBtn {
+    margin-top: 3%;
+}
+
+.knowBtn span {
+    animation-delay: 0.60s;
+}
+
+.knowBtn .ba {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*About section*/
+.about{
+    margin-top: 8%;
+    padding: 8% 0;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+.about .titleAbout h1{
+    margin-top: 7%;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+.about .description{
+    margin: 6%;
+    text-align: justify;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+.about .imgLogo{
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+}
+
+/*Projects section*/
+.projects{
+    padding: 8% 0;
+}
+
+.projects h1{
+    margin: 0 0 10% 0;
+    font-weight: bold;
+} 
+
+.project .projectTitle{
+    margin-top: 5%;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.project .projectDescription{
+    margin-top: 5%;
+    text-align:start;
+}
+
+.imgCard .imgProject{
+    margin: 5% 0;
+    width: 400px;
+    height: 300px;
+}
+
+.btns .btnLive, .btns .btnSource, .btns .btnAndroid, .btns .btnWindows{
+    margin: 5% 2%;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.btnLive .btnLiveIcon, .btnSource .btnSourceIcon, .btnAndroid .btnAndroidIcon, .btnWindows .btnWindowsIcon{
+    font-size: 35px;
+}
+
+.moreLessBtn .ba{
+    margin-top: 5%;
+    width: 170px;
+    height: 60px;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+}
+
+.row #one{
+    animation-delay: 3s;
+}
+  
+.row #two{
+    animation-delay: 4s;
+}
+  
+.row #three{
+    animation-delay: 5s;
+}
+
+/*Contacts section*/
+.contacts{
+    margin-top: 3%;
+    padding: 8% 0;
+    justify-content: center;
+    justify-items: center;
+}
+
+.form h1{
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+.contacts .form{
+   width: 500px;
+}
+
+#fullName, #email, #message{
+    font-size: 1.3em;
+}
+
+.contacts .sendBtn{
+    margin-top: 3%;
+    width: 120px;
+    height: 60px;
+}
+
+.contacts .sendBtn .sendIcon{
+    font-size: 40px;
+}
+
+/*Footer section*/
+.footer{
+    padding: 4% 0;
+}
+
+.icon{
+    margin-top: 3%;
+    font-size: 35px;
+    transform: 1s;
+    cursor: pointer;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
+
+.footer .copy{
+    font-size: 20px;
+    margin: 3% 1% 0 0;
+}
+
+.footer h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h6 a{
+    margin-top: 3%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Media section*/
+
+/*Tablet orizontal*/
+@media only screen and (min-width: 737px) and (max-width: 1279px){
+
+    /*Home section*/
+    .home{
+        padding: 25% 0 ;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .home .navy .title{
+        font-size: 85px;
+        margin: 5% 0;
+    }
+    
+    .home .navy .subTitle{
+        margin-top: 8%;
+        font-size: 75px;
+    }
+
+    .knowBtn .flex .ba{
+        margin-bottom: 15%;
+        height: 100px;
+        border-radius: 30px;
+        width: 320px;
+    }
+
+    .knowBtn .flex .ba h3{
+        font-size: 2em;
+    }
+
+    /*About section*/
+    .about{
+        padding: 10% 0;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .about .imgLogo{
+        width: 550px;
+        height: 550px;
+    }
+
+    .about .titleAbout h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .about .description{
+        font-size: 35px;
+    }
+
+    /*Projects section*/
+    .projects{
+        padding: 10% 0;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .projects h1{
+        font-size: 60px;
+        margin: 10% 0;
+        font-weight: bold;
+    }
+
+    .projects .imgCard .imgProject{
+        margin-top: 20%;
+        width: 500px;
+        height: 450px;
+    }
+
+    .project .projectTitle h2{
+        font-size: 50px;
+        margin: 14% 0;
+    }
+
+    .project .projectDescription{
+        margin: 5% 3%;
+        font-size: 35px;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+    }
+
+    .btns .btnLive,.btns .btnWindows,.btns .btnAndroid,.btns .btnSource{
+        margin: 10% 4%;
+        width: 180px;
+        height: 80px;
+    }
+
+    .btnLive .btnLiveIcon,.btnSource .btnSourceIcon,.btnAndroid .btnAndroidIcon,.btnWindows .btnWindowsIcon{
+        font-size: 65px;
+    }
+
+    .moreLessBtn .ba{
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        margin: 15% 0;
+        width: 250px;
+        height: 80px;
+    }
+
+    .moreLessBtn .ba h3{
+        font-size: 35px;
+    }
+
+    /*Contacts section*/
+    .contacts{
+        padding: 15% 0;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .contacts h1{
+        margin-bottom: 15%;
+        font-size: 3.8em;
+        font-weight: bold;
+    }
+
+    .contacts .form{
+        width: 550px;
+    }
+
+    #fullName, #email, #message{
+        font-size: 40px;
+        margin-bottom: 3%;
+    }
+
+    .form .sendBtn{
+        margin-top: 5%;
+        width: 200px;
+        height: 100px;
+    }
+
+    .form .sendBtn .sendIcon{
+        font-size: 70px
+    }
+    
+    /*Footer section*/
+    .footer{
+        text-align: center;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+    }
+
+    .footer .icon{
+        margin: 3% 3%;
+        font-size: 50px;
+    }
+
+    .top{
+        margin-top: 5%;
+        font-size: 40px;
+    }
+
+    .footer .copy{
+        margin-left: 5%;
+        margin-top: 3%;
+        font-size: 45px;
+    }
+
+    .footer h6 a{
+        font-size: 25px;
+        margin-top: 8%;
+        margin-right: 5%;
+    }
+}
+
+/*Tablet vertical*/
+@media only screen and (min-width: 481px) and (max-width: 736px){
+
+    /*Home section*/
+    .home{
+        padding: 30% 0 ;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .home .navy .title{
+        font-size: 3em;
+        margin: 5% 3% 0 3%;
+    }
+    
+    .home .navy .subTitle{
+        margin-top: 5%;
+        font-size: 2.5em;
+    }
+
+    .knowBtn .flex .ba{
+        margin-bottom: 8%;
+        height: 60px;
+        border-radius: 30px;
+        width: 220px;
+    }
+
+    .knowBtn .flex .ba h3{
+        font-size: 1.2em;
+    }
+
+    /*About section*/
+    .about{
+        padding: 10% 0;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .imgLogo{
+        width: 250px;
+        height: 250px;
+    }
+
+    .titleAbout h1{
+        font-size: 2.8em;
+        font-weight: bold;
+    }
+
+    .description p{
+        font-size: 1.5em;
+    }
+
+    /*Projects section*/
+    .projects{
+        padding: 10% 0;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .projects h1{
+        font-size: 2.8em;
+        margin: 10% 0;
+        font-weight: bold;
+    }
+
+    .projects .imgCard .imgProject{
+        margin-top: 10%;
+        width: 350px;
+        height: 350px;
+    }
+
+    .project .projectTitle h2{
+        font-size: 2em;
+        margin: 14% 0;
+    }
+
+    .project .projectDescription{
+        margin: 0 3%;
+        font-size: 1.5em;
+    }
+
+    .btnLive, .btnWindows, .btnAndroid, .btnSource{
+        width: 80px;
+        height: 60px;
+    }
+
+    .moreLessBtn .ba{
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        margin: 15% 0;
+        padding: 7% 0;
+    }
+
+    .moreLessBtn .ba h3{
+        font-size: 1.1em;
+    }
+
+    /*Contacts section*/
+    .contacts{
+        padding: 15% 0;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .contacts h1{
+        margin-bottom: 15%;
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .contacts .form{
+        width: 400px;
+    }
+
+    #fullName, #email, #message{
+        font-size: 1.6em;
+    }
+
+    .sendBtn{
+        width: 100px;
+        height: 50px;
+    }
+
+    .sendBtn .sendIcon{
+        font-size: 35px
+    }
+    
+    /*Footer section*/
+    .footer .icon{
+        font-size: 35px;
+    }
+
+    .footer .copy{
+        margin-left: 10%;
+    }
+
+    .footer h6 a{
+        font-size: 15px;
+        margin-top: 3%;
+        margin-right: 5%;
+    }
+}
+
+/*Smartphone and small tablet*/
+@media only screen and (min-width: 200px) and (max-width: 480px){
+    /*Home section*/
+    .home{
+        margin: 0 3%;
+        padding: 32% 0 ;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .title{
+        font-size: 1.8em;
+        margin-top: 5%;
+    }
+    
+    .subTitle{
+        margin-top: 8%;
+        font-size: 1.5em;
+    }
+
+    .knowBtn{
+        margin-top: 2%;
+        margin-bottom: 30%;
+    }
+
+    .knowBtn .ba{
+        height: 50px;
+        border-radius: 30px;
+        width: 160px;
+        font-weight: bold;
+    }
+
+
+    /*About section*/
+    .about{
+        padding: 12% 0;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .about .imgLogo{
+        width: 200px;
+        height: 200px;
+    }
+
+    .about .titleAbout h1{
+        margin-top: 7%;
+        font-size: 1.8em;
+    }
+
+    .about .description{
+        margin-top: 6%;
+        font-size: 1em;
+        text-align: start;
+    }
+
+    /*Projects section*/
+    .projects{
+        padding: 10% 0;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+    }
+
+    .projects h1{
+        font-size: 1.8em;
+        margin: 10% 0;
+        font-weight: bold;
+    }
+
+    .imgCard .imgProject{
+        margin-top: 20%;
+        width: 150px;
+        height: 150px;
+    }
+
+    .project .projectTitle h2{
+        font-size: 1.2em;
+        margin: 14% 0;
+        font-weight: bold;
+    }
+
+    .project .projectDescription{
+        font-size: 1em;
+        margin-bottom: 10%;
+    }
+
+    .btns .btnLive, .btns .btnSource{
+        width: 60px;
+        height: 30px;
+        margin-bottom: 10%;
+    }
+
+    .btnLive .btnLiveIcon, .btnSource .btnSourceIcon{
+        font-size: 25px;
+    }
+
+    .moreLessBtn .flex .ba{
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        text-align: center;
+        margin: 20% 0;
+        width: 120px;
+        height: 40px;
+    }
+
+    .moreLessBtn .flex .ba h3{
+        font-size: 17px;
+        font-weight: bold;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+
+    /*Contacts section*/
+    .contacts{
+        padding: 12% 0;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .contacts h1{
+        margin-bottom: 15%;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    .contacts .form{
+        width: 190px;
+    }
+
+    #fullName, #email, #message{
+        font-size: 1em;
+    }
+
+    .form .sendBtn{
+        width: 80px;
+        height: 40px;
+    }
+
+    .form .sendBtn .sendIcon{
+        font-size: 25px;
+    }
+
+    /*Footer section*/
+    .top {
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .footer .icon{
+        font-size: 20px;
+    }
+
+    .footer h6 .copy{
+        margin: 0 0 0 1%;
+        font-size: 1.5em;
+    }
+
+    .footer h6 a{
+        margin-top: 6%;
+        font-size: 10px;
+    }
 }

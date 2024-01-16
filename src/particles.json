@@ -1,7 +1,8 @@
 {
   "background": {
-    "color": "#282c34"
+    "color": "white"
   },
+  "fullScreen": true, 
   "interactivity": {
     "events": {
       "onClick": {
@@ -19,18 +20,18 @@
         "quantity": 4
       },
       "repulse": {
-        "distance": 200,
+        "distance": 100,
         "duration": 0.4
       }
     }
   },
   "particles": {
     "color": {
-      "value": "#ffffff"
+      "value": "rgb(255, 177, 177)"
     },
     "links": {
-      "color": "#ffffff",
-      "distance": 150,
+      "color":"rgb(143, 170, 210)" ,
+      "distance": 200,
       "enable": true,
       "opacity": 0.5,
       "width": 1
