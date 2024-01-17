@@ -87,3 +87,7 @@ body {
 .footer h6 a{
   color: rgb(255, 177, 177);
 }
+
+.footer h6 a span:hover{
+  color: rgb(143, 170, 210);
+}

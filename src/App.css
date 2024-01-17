@@ -158,7 +158,6 @@
     letter-spacing: 2px;
 }
 
-
 .moreLessBtn .ba{
     margin-top: 5%;
     width: 170px;
@@ -263,8 +262,12 @@
 .footer h6 a{
     margin-top: 3%;
     text-decoration: none;
+}
+
+.footer h6 a span{
     cursor: pointer;
 }
+
 
 /*Media section*/
 
