@@ -51,9 +51,9 @@ $ npm install react-icons --save
 
 ### Git Page 
 
-#### For the first step open package.json and add homepage
+#### For the first step open package.json and change homepage
 
-Add a homepage field for your project:
+Change homepage with your iformation:
 ```bash
 "homepage": "https://myusername.github.io/my-app"
 ```
@@ -71,7 +71,7 @@ or for a custom domain page:
 #### For the second step install gh-pages and add deploy to scripts in package.json
 
 ```bash
-npm instal --save gh-pages
+npm install --save gh-pages
 ```
 
 #### For third step add the following scripts in your package.json
