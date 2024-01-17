@@ -212,7 +212,7 @@ Go to /src/components/ProjesctCard/data.json and fill in your information. Go to
         "id": "three",
         "title": "Project Title",
         "description": "Describe the project being very specific: complement the information: the skills learned or reinforced in its realization .",
-        "image": "/ImageProjects/projectImage.jpg",
+        "image": "./ImageProjects/projectImage.jpg",
         "urlBtnLive": "url live project",
         "urlBtnCode": "url code project"
     },
@@ -281,7 +281,7 @@ const Contacts = () => {
                     </Form.Group>
                     <Form.Group className="mb-3 tc" >
                         <Button className="sendBtn" type="submit" value="Send" variant="outline-light" >
-                            <FaPaperPlane className="sendIcon"/>
+                            <FaPaperPlane className="sendIcon"/><ba>Send</ba>
                         </Button>
                     </Form.Group>
                 </Form>
@@ -327,7 +327,7 @@ function Footer() {
                 <h6 className="mt3">
                     <FaCopyright  className="copy"/>
                     <a href="https://github.com/BlueButterflies" target="_blank">
-                        {"2024 - Template developed by S/Z Siyana Zdravkova Web Developer"}
+                        2024 - Template developed by <span>S/Z Siyana Zdravkova Web Developer</span>
                     </a>
                 </h6>
         </Container>
@@ -369,6 +369,10 @@ body {
   color: #fff;
 }
 
+.knowBtn .ba:hover{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(255, 177, 177) 0%, rgb(143, 170, 210) 90%);
+}
+
 /*About Section*/
 .about {
    background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
@@ -384,6 +388,10 @@ body {
 .moreLessBtn .ba{
   background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
   color: #fff;
+}
+ 
+.moreLessBtn .ba:hover{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(255, 177, 177) 0%, rgb(143, 170, 210) 90%);
 }
 
 /*
@@ -404,6 +412,14 @@ body {
   background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
 }
 
+.contacts .sendBtn b{
+  color: white;
+}
+
+.contacts .sendBtn .sendIcon{
+  color: white
+}
+
 /*Footer Section*/
 .footer .copy{
   color: rgb(255, 177, 177);
@@ -415,6 +431,10 @@ body {
 
 .footer h6 a{
   color: rgb(255, 177, 177);
+}
+
+.footer h6 a span:hover{
+  color: rgb(143, 170, 210);
 }
 ```
 ---
