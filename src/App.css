@@ -49,7 +49,7 @@
     margin-top: 3%;
 }
 
-.knowBtn span {
+.knowBtn .ba {
     animation-delay: 0.60s;
 }
 
@@ -58,6 +58,14 @@
     height: 60px;
     text-align: center;
     justify-content: center;
+    -webkit-transition:all 0.3s ease;
+    transform: 1s;
+}
+
+.knowBtn .ba:hover{
+    -webkit-transition:all 0.3s ease;
+    transform: scale(1.1);
+    letter-spacing:3px;
 }
 
 /*About section*/
@@ -121,9 +129,9 @@
     height: 300px;
 }
 
-.btns .btnLive, .btns .btnSource, .btns .btnAndroid, .btns .btnWindows{
+.btns .btnLive, .btns .btnSource{
     margin: 5% 2%;
-    width: 80px;
+    width: 100px;
     height: 50px;
     text-align: center;
     justify-content: center;
@@ -131,9 +139,25 @@
     justify-self: center;
 }
 
-.btnLive .btnLiveIcon, .btnSource .btnSourceIcon, .btnAndroid .btnAndroidIcon, .btnWindows .btnWindowsIcon{
+.btnLive .btnLiveIcon, .btnSource .btnSourceIcon{
     font-size: 35px;
 }
+
+.btns b{
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+
+.btns a:hover .btnLiveIcon, .btns a:hover .btnSourceIcon{
+    display: none;
+}
+
+.btns a:hover b{
+    display: block;
+    letter-spacing: 2px;
+}
+
 
 .moreLessBtn .ba{
     margin-top: 5%;
@@ -142,6 +166,11 @@
     font-size: 1.5em;
     text-align: center;
     justify-content: center;
+    transform: 1s;
+}
+
+.moreLessBtn .ba:hover{
+    transform: scale(1.1);
 }
 
 .row #one{
@@ -180,13 +209,30 @@
 .contacts .sendBtn{
     margin-top: 3%;
     width: 120px;
-    height: 60px;
+    height: 60px; 
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+.contacts .sendBtn b{
+    display: none;
+    font-size: 30px;
 }
 
 .contacts .sendBtn .sendIcon{
     font-size: 40px;
 }
 
+.contacts .sendBtn:hover .sendIcon{
+    display: none;
+}
+
+
+.contacts .sendBtn:hover b{
+    display: block;
+    letter-spacing: 2px;
+}
 /*Footer section*/
 .footer{
     padding: 4% 0;
@@ -293,8 +339,8 @@
 
     .projects .imgCard .imgProject{
         margin-top: 20%;
-        width: 500px;
-        height: 450px;
+        width: 470px;
+        height: 400px;
     }
 
     .project .projectTitle h2{
@@ -310,14 +356,18 @@
         justify-items: center;
     }
 
-    .btns .btnLive,.btns .btnWindows,.btns .btnAndroid,.btns .btnSource{
+    .btns .btnLive, .btns .btnSource{
         margin: 10% 4%;
         width: 180px;
         height: 80px;
     }
 
-    .btnLive .btnLiveIcon,.btnSource .btnSourceIcon,.btnAndroid .btnAndroidIcon,.btnWindows .btnWindowsIcon{
+    .btnLive .btnLiveIcon,.btnSource .btnSourceIcon{
         font-size: 65px;
+    }
+
+    .btns b{
+        font-size: 30px;
     }
 
     .moreLessBtn .ba{
@@ -366,6 +416,9 @@
         font-size: 70px
     }
     
+    .contacts .sendBtn b{
+        font-size: 45px;
+    }
     /*Footer section*/
     .footer{
         text-align: center;
@@ -482,9 +535,15 @@
         font-size: 1.5em;
     }
 
-    .btnLive, .btnWindows, .btnAndroid, .btnSource{
-        width: 80px;
-        height: 60px;
+    .btns .btnLive, .btns .btnSource{
+        width: 100px;
+        height: 50px;
+    }
+
+    .btns b{
+        font-size: 18px;
+        color: white;
+        display: none;
     }
 
     .moreLessBtn .ba{
@@ -645,6 +704,10 @@
         font-size: 25px;
     }
 
+    .btns b{
+        font-size: 10px;
+    }
+
     .moreLessBtn .flex .ba{
         justify-content: center;
         justify-items: center;
@@ -695,6 +758,9 @@
         font-size: 25px;
     }
 
+    .contacts .sendBtn b{
+        font-size: 15px;
+    }
     /*Footer section*/
     .top {
         margin-top: 5%;

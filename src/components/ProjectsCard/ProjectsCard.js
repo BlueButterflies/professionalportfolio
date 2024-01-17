@@ -52,10 +52,10 @@ const ProjectsCard = () => {
 
                                         <div className="tc btns">
                                             <a href={data.urlBtnLive} target="_blank" className="btnLive f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                <FaEye className="btnLiveIcon"/>
+                                                <FaEye className="btnLiveIcon"/> <b className="live">Live</b>
                                             </a>
                                             <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                <FaCode className="btnSourceIcon"/>
+                                                <FaCode className="btnSourceIcon"/> <b className="source">Source</b>
                                             </a>
                                         </div>
                                     </div>

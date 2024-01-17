@@ -37,8 +37,8 @@ const Contacts = () => {
                         <Form.Control required as={"textarea"} rows={8} name="message" placeholder="Message" id="message" />
                     </Form.Group>
                     <Form.Group className="mb-3 tc" >
-                        <Button className="sendBtn" type="submit" value="Send" variant="outline-light" >
-                            <FaPaperPlane className="sendIcon"/>
+                        <Button className="sendBtn tc" type="submit" value="Send" variant="trasparent" >
+                            <FaPaperPlane className="sendIcon"/><b>Send</b>
                         </Button>
                     </Form.Group>
                 </Form>

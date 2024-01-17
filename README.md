@@ -96,6 +96,14 @@ npm instal --save gh-pages
 $ npm run deploy
 ```
 
+#### If you are having problems with gh-page
+```bash
+#For the first run build
+$ npm run build
+
+#For the second run deploy
+$ npm run deploy
+```
 #### Finally, make sure GitHub Pages option in your GitHub project settings is set to use the gh-pages branch or configure your domain
 
 For more informations visit [Create React App/Deployment](https://create-react-app.dev/docs/deployment/#step-2-install-gh-pages-and-add-deploy-to-scripts-in-packagejson)

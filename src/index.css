@@ -24,6 +24,10 @@ body {
   color: #fff;
 }
 
+.knowBtn .ba:hover{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(255, 177, 177) 0%, rgb(143, 170, 210) 90%);
+}
+
 /*About Section*/
 .about {
    background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
@@ -39,6 +43,10 @@ body {
 .moreLessBtn .ba{
   background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
   color: #fff;
+}
+ 
+.moreLessBtn .ba:hover{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(255, 177, 177) 0%, rgb(143, 170, 210) 90%);
 }
 
 /*
@@ -57,6 +65,14 @@ body {
 /*Contact Section*/
 .contacts {
   background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+}
+
+.contacts .sendBtn b{
+  color: white;
+}
+
+.contacts .sendBtn .sendIcon{
+  color: white
 }
 
 /*Footer Section*/
