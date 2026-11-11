@@ -468,7 +468,7 @@ I was motivated to create this project after seeing the Simplefolio that [Jacobo
 * [React.js](https://react.dev/learn)
 * [Create-react-app](https://create-react-app.dev/docs/getting-started)
 * [React bootstrap](https://react-bootstrap.netlify.app/docs/getting-started/introduction)
-* [Emailjs](https://www.emailjs.com/docs/)
+* [Emailjs](https://www.emailjs.com/docs/)  -  You must register and have your account and your key to be able to use it
 * [Animate.css](https://animate.style/#documentation)
 * [Tachyons](https://tachyons.io/docs/)
 
